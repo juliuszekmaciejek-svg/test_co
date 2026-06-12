@@ -11,6 +11,7 @@ permissions:
   issues: write
 
 env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   STEP_1_FILE: ".github/steps/1-step.md"
 
 jobs:

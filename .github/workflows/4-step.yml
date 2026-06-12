@@ -11,6 +11,7 @@ permissions:
   issues: write
 
 env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   STEP_5_FILE: ".github/steps/5-step.md"
 
 jobs:
